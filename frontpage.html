@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>front-page</title>
+	<link rel="stylesheet" type="text/css" href="/main.css">
+</head>
+<body>
+
+<div >
+<fieldset>
+	<legend>Mastery</legend>
+	<div>
+		<div class="percent">
+			Percentage 1 <br>
+			<input type="text" name="Percentage_1" placeholder="enter the value"> 
+		</div>
+		<div class="percent">
+			Percentage 2 <br>
+			<input type="text" name="Percentage_2" placeholder="enter the value"> 
+		</div >
+		<div class="percent">
+			Percentage 3<br>
+			<input type="text" name="Percentage_3"placeholder="enter the value"> 
+		</div>
+		<div class="percent">
+			Percentage 4<br>
+			<input type="text" name="Percentage_4" placeholder="enter the value"> 
+			 
+		</div>
+		<div class="percent">
+			Percentage 5<br>
+			<input type="text" name="Percentage_5" placeholder="enter the value"> 
+		</div>
+		<div><br></div>
+		<div><br></div>
+
+		<div>
+		<br>Assessment type<br>
+			<select name="type">
+			<option value="Homework"><i>Homework</i></option>
+			<option value="quiz">quiz</option>	
+			<option value="exam">exam</option>	
+			<option value="poll">poll</option>	
+			</select>
+		</div>
+	</div>
+	</fieldset>
+</div>
+<hr>
+<div></div>
+<div></div>
+
+<div >
+<fieldset>
+<legend>Assessment Details</legend>
+<div class="percent1">
+		<br>Offer mode<br>
+			<select name="offer mode" >
+			<option value="" selected disabled hidden>Please Select</option>
+			<option value="assigned only">assigned only</option>
+			<option value="offer mode">offer mode</option>		
+			</select>
+</div>
+<div class="percent1">
+		<br>Retake Policy<br>
+			<select name="Retake Policy" >
+			<option value="" selected disabled hidden>Please Select</option>
+			<option value="once only">once only</option>
+			<option value="twice only">twice only</option>
+			<option value="no_limit">no_limit</option>		
+			<option value="Once per day only">once per day only</option>
+			</select>
+</div>
+
+<div class="percent1">
+		<br>Validation mode<br>
+			<select name="Validation mode" >
+			<option value="" selected disabled hidden>Please Select</option>
+			<option value="Show answer on Submit">Show answer on Submit</option>
+			<option value="Show answer on Close">Show answer on Close</option>		
+			</select>
+</div>
+
+<div style="clear:left;"></div>
+
+<div class="percent1">
+			Assessment Name <br>
+			<input type="text"  placeholder="Please Enter Assignment Name"> 
+</div>
+<div class="percent1">
+			Duration <br>
+			<input type="text"  placeholder="30 minutes"> 
+</div>
+
+<div style="clear:left;"></div>
+<div class="percent1">
+			Start date and time <br>
+			<input type="datetime-local"  placeholder="30 minutes" name="Start date and time"> 
+</div>
+
+<div class="percent1">
+			Close date and time <br>
+			<input type="datetime-local"  placeholder="30 minutes" name="Close date and time"> 
+</div>
+</div>
+</fieldset>
+
+<div >
+<fieldset>
+<legend>Sections</legend>
+<div class="percent2">
+	<br>class Section</br>
+	<select name="Class Section">
+		<option value="1">1</option>
+	</select>
+	
+
+			<br>Open date and time <br>
+			<input type="datetime-local"  placeholder="30 minutes" name="Open date and time"> 
+    
+
+
+			<br>End date and time <br>
+			<input type="datetime-local"  placeholder="30 minutes" name="End date and time"> 
+
+</div>
+
+ <div class="percent2">
+	<br>class Section</br>
+ 	<select name="Class Section">
+		<option value="AB">AB</option>
+	</select>
+	
+	
+			<br>Open date and time <br>
+			<input type="datetime-local"   name="Open date and time"> 
+    
+
+    
+			<br>End date and time <br>
+			<input type="datetime-local"   name="End date and time">
+	
+ </div>
+</div>	
+</fieldset>
+</div>
+<h1 style="color:blue">Segment</h1>
+<div class="percent1">
+	<br>Segment Position</br>
+	<input type="text" name="segment position">
+	<br> Selection Count</br>
+	<input type="text" name="Selection Count">
+	<br>
+	<input class="button" type="Submit" value="Add questions" color:blue>
+</div>
+<div class="percent2">
+	<br>Question Score</br>
+	<input type="text" name="Question Score" placeholder="Enter Question Score"><br>
+	Question Order<br>
+	
+	<select name="Question order">
+		<option value=""> Please Select</option>>
+
+		<option value="Linear"> Linear</option>>
+		<option value="Shuffle"> Shuffle</option>>	
+	</select>
+	<br>
+	<input class=button1 type="Submit" value="Submit">
+</div>
+</body>
+</html>
